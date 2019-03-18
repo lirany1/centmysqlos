@@ -31,7 +31,7 @@ EXPOSE 3306
 # -----------------------------------------------------------------------------
 ENV MYSQL_AUTOSTART_MYSQLD_BOOTSTRAP=true \
 	MYSQL_AUTOSTART_MYSQLD_WRAPPER=true \
-	MYSQL_ROOT_PASSWORD="zubur1" \
+	MYSQL_ROOT_PASSWORD="<password>" \
 	MYSQL_ROOT_PASSWORD_HASHED=false \
 	MYSQL_SUBNET="127.0.0.1" \
 	MYSQL_USER="" \
